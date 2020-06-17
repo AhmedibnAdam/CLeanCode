@@ -6,12 +6,15 @@ chapter 1
 I used this summary of some key points that I made to study the book Clean Code.<br/>
 I hope it helps others.<br/>
 (Note: this summary doesn't exclude the need to read the book.)<br/>
-
-first of all , I would like to highlight a few quotes
+<br/><br/>
+first of all , I would like to highlight a few quotes 
+<br/>
+<br/>
 ![](https://miro.medium.com/max/1000/1*5xBL_Z1k8hIifUA3maiFlA.gif)
+<br/>
 
-Strongly support!  
-
+# Strongly support!  
+<br/><br/>
 ## Why bad code ?! <br/>
 # What makes me write a bad code ?! <br/>
 
