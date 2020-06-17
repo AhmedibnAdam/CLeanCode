@@ -40,6 +40,8 @@ Bad code can bring a company down. <br/>
 * Clean code offers quality and understanding when we open a class.
 
 * It is necessary that your code is clean and readable for anyone to find and easily understand. Avoid wasting others' time.
+ 
+
 
 ## How could i write clean code ?!
  there are rules aand tips you can take it in consideration while coding 
@@ -54,65 +56,7 @@ Bad code can bring a company down. <br/>
 * Always find root cause. <br/>
   Always look for the root cause of a problem.
   
-# Design rules
-
-* Separate multi-threading code.
-* Prevent over-configurability.
-* Keep configurable data at high levels. <br/>
-  Keep all constants, read-only variables and other configurable data at high level of abstraction
-* Use dependency injection. <br/>
-  Dependency injection separates the creation of a client's dependencies from the client's behavior, which allows program designs to be loosely coupled  and to follow the dependency inversion and single responsibility principles. It directly contrasts with the service locator pattern, which allows clients to know about the system they use to find dependencies.
-* Follow Law of Demeter.<br/>
- A class should know only its direct dependencies.
-* Prefer polymorphism to if/else or switch/case.
-```swift
-// switch
-class Bird {
-  // ...
-  func getSpeed()-> Double {
-    switch (type) {
-      case EUROPEAN:
-        return getBaseSpeed()
-      case AFRICAN:
-        return getBaseSpeed() - getLoadFactor() * numberOfCoconuts
-      case NORWEGIAN_BLUE:
-        return getBaseSpeed()
-    default:
-        return 0.0
-    }
-  }
-}
-
-//  polymorphism 
-class Bird {
-    func getSpeed() -> Double {
-        return 0.0
-    }
-}
-class European : Bird {
-    override func getSpeed()-> Double{
-        return getBaseSpeed()
-    }
-    func getBaseSpeed()-> Double{
-        return 8
-    }
-}
-class African : Bird {
-    override func getSpeed() -> Double {
-        return getBaseSpeed() - getLoadFactor() * numberOfCoconuts;
-    }
-}
-class NorwegianBlue : Bird {
-    override func getSpeed() -> Double  {
-        return getBaseSpeed()
-    }
-    func   getBaseSpeed() -> Double {
-        return 10.8
-    }
-}
-```
-
-# Understandability tips
+  # Understandability tips
 * Be consistent. <br/>
   If you do something a certain way, do all similar things in the same way.
 * Use explanatory variables.
@@ -123,5 +67,11 @@ class NorwegianBlue : Bird {
   Don't write methods which works correctly depending on something else in the same class.
 * Avoid negative conditionals. <br/>
 
+# when should we clean ?!
+
+All the time 
+
+final ,
+“Practice, son. Practice!”
 
 
