@@ -71,7 +71,7 @@ Bad code can bring a company down. <br/>
 
 All the time 
 
-final ,
+# final ,
 “Practice, son. Practice!”
 
 
