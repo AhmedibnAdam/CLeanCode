@@ -58,11 +58,11 @@ Bad code can bring a company down. <br/>
 
 * Separate multi-threading code.
 * Prevent over-configurability.
-* Keep configurable data at high levels.
+* Keep configurable data at high levels. <br/>
   Keep all constants, read-only variables and other configurable data at high level of abstraction
-* Use dependency injection.
+* Use dependency injection. <br/>
   Dependency injection separates the creation of a client's dependencies from the client's behavior, which allows program designs to be loosely coupled  and to follow the dependency inversion and single responsibility principles. It directly contrasts with the service locator pattern, which allows clients to know about the system they use to find dependencies.
-* Follow Law of Demeter.
+* Follow Law of Demeter.<br/>
  A class should know only its direct dependencies.
 * Prefer polymorphism to if/else or switch/case.
 ```swift
@@ -113,13 +113,15 @@ class NorwegianBlue : Bird {
 ```
 
 # Understandability tips
-* Be consistent.
+* Be consistent. <br/>
   If you do something a certain way, do all similar things in the same way.
 * Use explanatory variables.
-* Encapsulate boundary conditions.
+* Encapsulate boundary conditions. <br/>
   Boundary conditions are hard to keep track of. Put the processing for them in one place.
-* Prefer dedicated value objects to primitive type.
-* Avoid logical dependency.
+* Prefer dedicated value objects to primitive type. 
+* Avoid logical dependency. <br/>
   Don't write methods which works correctly depending on something else in the same class.
-* Avoid negative conditionals.
+* Avoid negative conditionals. <br/>
+
+
 
