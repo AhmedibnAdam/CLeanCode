@@ -67,8 +67,20 @@ Bad code can bring a company down. <br/>
   Don't write methods which works correctly depending on something else in the same class.
 * Avoid negative conditionals. <br/>
 
-# when should we clean ?!
+# so what is exactly the code could I called it's clean 
+in my opinon you could called the code clean when it is 
+* Readable 
+* Crips and clear
+* Be consistent
+* Maintainable 
+* Scalable 
+* Testable 
+* Meaningful names
+* No duplicates
+* Less dependancy
+* code quality
 
+# when should we clean ?!
 All the time 
 
 # final ,
