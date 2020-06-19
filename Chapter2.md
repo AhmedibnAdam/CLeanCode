@@ -19,13 +19,13 @@
 
 
 
-Names are everywhere in software. <br\>
-We name our variables, our functions, our arguments, classes, and packages.  <br\>
-We name our source files and the directories that contain them.  <br\>
-We name our jar files and war files and ear files.  <br\>
-We name and name and name.  <br\>
-Because we do so much of it, we’d better do it well.  <br\>
-What follows are some simple rules for creating good names.  <br\>
+Names are everywhere in software. <br/>
+We name our variables, our functions, our arguments, classes, and packages.  <br/>
+We name our source files and the directories that contain them. <br/>
+We name our jar files and war files and ear files. <br/>
+We name and name and name. <br/>
+Because we do so much of it, we’d better do it well. <br/>
+What follows are some simple rules for creating good names. <br/>
 
 
 # Use Intention-Revealing Names
