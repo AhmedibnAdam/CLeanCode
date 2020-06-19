@@ -3,7 +3,7 @@
 ![](https://www.aliens-sci.com/wp-content/uploads/2019/01/CleanCode.jpg)
 
 
-# How much time do you spend writing code vs reading code?! <br\> Indeed, the ratio of time spent reading versus writing is well over 10 to 1 "Uncle Bob"
+# How much time do you spend writing code vs reading code?! <br/> Indeed, the ratio of time spent reading versus writing is well over 10 to 1 "Uncle Bob"
 
 ## Table of contents
 * [Use Intention-Revealing Names](#Use-Intention-Revealing-Names)
